@@ -158,8 +158,43 @@ img {
 
 @media (max-width: 480px){
     .container {
-        width: 200px;
+        width: 360px;
     }
 
+    .lessons .row {
+        flex-wrap: wrap;
+    }
+
+    .lessons .col {
+        width: calc(12 * 100% / 12);
+    }
+
+    .lessons .card{
+        padding-bottom: 50px;
+    }
+
+    .steps .row {
+        flex-wrap: wrap;
+    }
+
+    .steps .col {
+        width: calc(12 * 100% / 12);
+    }
+
+    .steps .card{
+        padding-bottom: 50px;
+    }
     
+    .why-us .row {
+        flex-wrap: wrap;
+        flex-direction: column;
+    }
+
+    .why-us .col {
+        width: calc(12 * 100% / 12);
+    }
+
+    .why-us .col-left{
+        padding-bottom: 50px;
+    }
 }
